@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pic.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#colorDisplay {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+#options {
+    margin-top: 20px;
+}
+
+.option {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#resetButton {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+}
