@@ -1,0 +1,61 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            background: linear-gradient(to bottom right, #4CAF50, #45a049); /* Gradient background */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow */
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff; /* Text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+        }
+
+        #soundboard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .sound-button-container {
+            width: 100%; /* Make the container fill entire width */
+            text-align: center;
+        }
+
+        .sound-button {
+            background-color: #f9a825; /* Button color */
+            color: #333; /* Text color */
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 8px; /* Rounded corners */
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Button box shadow */
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 100%; /* Make buttons fill entire width */
+            height: 80px; /* Fixed height for all buttons */
+        }
+
+        .sound-button:hover {
+            transform: translateY(-3px); /* Button hover animation */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Button hover box shadow */
+        }
